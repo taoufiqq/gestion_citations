@@ -7,6 +7,7 @@ body{
     align-items: center;
     min-height: 110vh;
     font-family: 'Poppins', sans-serif;
+    background: gray;
 }
 .Section{
     width: 1200px;
@@ -19,8 +20,8 @@ body{
 .Section .div{   
   position: relative;
   margin-top: 30px;
-  width: 360px;
-  height: 400px;
+  width: 375px;
+  height: 420px;
   grid-row-end: 400px;
    background: rgb(172, 171, 170);
    overflow: hidden;
@@ -35,11 +36,12 @@ body{
     box-shadow: -10px 25px 50px rgba(0,0,0,.5);
 }
 .Section .div p{
-    margin: 0;
+    margin-top: 30px;
     padding: 0;
-    font-size: 18px;
+    font-size: 17px;
     word-break: break-all;
     text-align: center;
+    text-shadow: rgb(221, 206, 168) 1px 2px 1px;
 }
 
 .Section .div:hover p{
@@ -257,5 +259,6 @@ body{
     margin-left: 25%;
 }
 .file{
-    background-color: #f19069;
+    opacity: 0;
+    z-index: -1;
 }
